@@ -1,0 +1,10 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61173B89
+eax=0000200A ebx=0029D51C ecx=0040409C edx=00000000 esi=61305257 edi=611CCFB2
+ebp=0029C438 esp=0029C160 program=C:\Users\Rick\Documents\NetBeansProjects\phoneBook\dist\Debug\Cygwin-Windows\phonebook.exe, pid 7156, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0029C438  61173B89 (0040409C, 0029C45C, 0029C46A, 00000000)
+0029CC78  0040169E (00000001, 0029CC9C, 80010100, 6100833B)
+0029CD18  6100839A (00000000, 0029CD74, 61007410, 00000000)
+End of stack trace
