@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
         strcpy(nameBuffer, getInput());                                   /*store input inside of a text*/
         
         /* Note that nameBuffer is not used as a variable for name */                                                                    
-        displayOptionSelected ( nameBuffer );
+        displayOptionSelected(nameBuffer);
 
         if(get_choice(nameBuffer, "add\n"))                               /*add a contact*/
         {                             
@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
             appendContent(testFile, fp, numberBuffer);                   /*in case you do not close the file properly*/                                                                  
             add_contact(&book1, nameBuffer, numberBuffer);                    
         }
-        else if(get_choice( nameBuffer, "delete\n")) 
+        else if(get_choice(nameBuffer, "delete\n")) 
         {                       
             printf("%s\n", "Please enter a name to delete contact.");
             strcpy(nameBuffer, getInput());                               
