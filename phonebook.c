@@ -33,7 +33,7 @@ char *get_full_name (char *firstName, char *lastName) {
     return strcat(strcat(firstName,  " "), strcat(lastName, "\n"));            
 }
 
-void add_contact(PhoneBook* phoneBook, char* name, char* number) {
+void add_contact(PhoneBook *phoneBook, char *name, char *number) {
     Contact *contacts;
     Contact *newContact = malloc(sizeof(Contact));
     int newMemorySize = 0;
