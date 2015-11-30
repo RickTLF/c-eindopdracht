@@ -40,7 +40,7 @@ typedef struct {
     Contact * contacts;
 }PhoneBook;
 
-void load_file_content_to_phonebook ( char * filePath, PhoneBook * phoneBook );
+void load_file_content_to_phonebook ( char *filePath, PhoneBook *phoneBook );
 void phonebook_init( PhoneBook * phoneBook, int constructSize );
 void addContactToPhoneBook( PhoneBook*phoneBook, Contact contact);
 void print_phonebook(PhoneBook *phoneBook);
